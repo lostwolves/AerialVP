@@ -9,11 +9,15 @@ This project introduces **AerialVP (Aerial Visual Perception)**, an agent framew
 
 **AerialSense** is a large-scale UAV perception benchmark curated from multiple public UAV sources and organized under a unified evaluation protocol. It is designed to support **comprehensive, diverse, and realistic** assessment of multimodal perception in aerial settings.
 
+<p align="center" width="100%">
+  <img src="imgs/AerialSense.png" width="100%" alt="AerialSense Overview">
+</p>
+
 ### 🧭 Multi-Task Coverage
 AerialSense jointly supports three core UAV perception tasks within a single benchmark:
-* 🧠 **Aerial Visual Reasoning (AVR)**
-* ❓ **Aerial Visual Question Answering (AVQA)**
-* 🎯 **Aerial Visual Grounding (AVG)**
+* 🧠 **Aerial Visual Reasoning (VR)**
+* ❓ **Aerial Visual Question Answering (VQA)**
+* 🎯 **Aerial Visual Grounding (VG)**
 
 ### 📊 Scale & Density
 * 🖼️ **7,119** UAV images
@@ -51,8 +55,3 @@ To reflect real UAV conditions, AerialSense incorporates broad visual variation 
 * 🧩 scene complexity
 * 🛰️ resolution
   supporting fair evaluation of model adaptability and generalization in real-world aerial perception.
-
-
-<p align="center" width="100%">
-  <img src="imgs/AerialSense.png" width="100%" alt="AerialSense Overview">
-</p>
