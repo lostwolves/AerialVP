@@ -6,5 +6,5 @@ This project introduces **AerialVP (Aerial Visual Perception)**, an agent framew
 </p>
 
 <p align="center" width="100%">
-  <img src="imgs/image1.png" width="100%" alt="AerialSense Overview">
+  <img src="imgs/AerialSense.png" width="100%" alt="AerialSense Overview">
 </p>
