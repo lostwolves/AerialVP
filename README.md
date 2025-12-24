@@ -57,8 +57,8 @@ To reflect real UAV conditions, AerialSense incorporates broad visual variation 
   supporting fair evaluation of model adaptability and generalization in real-world aerial perception.
 
 # Release Notes
-* [2025/12/23]  📢 Dataset Release: AerialSense on Hugging Face
-We have released the AerialSense dataset on Hugging Face: https://huggingface.co/datasets/GuoMN/AerialSense. The dataset covers three UAV perception tasks: Aerial Visual Reasoning, Aerial Visual Question Answering, and Aerial Visual Grounding. The Aerial Visual Grounding task is mainly built upon samples from original data sources, while a limited number of samples lacking grounding instructions are manually annotated by our team. The Aerial Visual Reasoning and Aerial Visual Question Answering datasets are manually constructed and validated. If you have any questions or concerns regarding the data, please feel free to contact us.
+* **[2025/12/23]  📢 Dataset Release: AerialSense on Hugging Face**
+  We have released the AerialSense dataset on Hugging Face: https://huggingface.co/datasets/GuoMN/AerialSense. The dataset covers three UAV perception tasks: Aerial Visual Reasoning, Aerial Visual Question Answering, and Aerial Visual Grounding. The Aerial Visual Grounding task is mainly built upon samples from original data sources, while a limited number of samples lacking grounding instructions are manually annotated by our team. The Aerial Visual Reasoning and Aerial Visual Question Answering datasets are manually constructed and validated. If you have any questions or concerns regarding the data, please feel free to contact us.
 
 # Citation
 
