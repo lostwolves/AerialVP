@@ -1,0 +1,75 @@
+{
+  "api": {
+    "url": "https://api.openai.com/v1/chat/completions",
+    "api_key_env": "OPENAI_API_KEY",
+    "temperature": 0.1,
+    "top_p": 0.9,
+    "max_tokens": 4096,
+    "timeout": 180,
+    "max_retries": 2
+  },
+  "engine": {
+    "model": "gpt-4.1",
+    "max_validation_attempts": 5
+  },
+  "analysis": {
+    "model": "gpt-4o"
+  },
+  "backend": {
+    "model": "gpt-4.1"
+  },
+  "mcp": {
+    "python": null,
+    "timeout": 1800
+  },
+  "tool_selection": {
+    "spatial_position_description": "spatial_position_description_yoloworld",
+    "semantic_description": "semantic_description_DAM",
+    "spatial_relationship_description": "spatial_relationship_description_SpaceOm"
+  },
+  "models": {
+    "yoloworld": {
+      "checkpoint": "models/yoloworld/yolov8x-world.pt",
+      "clip_checkpoint": "models/clip/ViT-B-32.pt",
+      "device": "cuda:0",
+      "imgsz": 1280,
+      "confidence": 0.1
+    },
+    "dam": {
+      "checkpoint": "models/dam",
+      "sam_checkpoint": "models/sam",
+      "device": "cuda:0",
+      "sam_device": "cuda:0",
+      "max_new_tokens": 256
+    },
+    "spaceom": {
+      "checkpoint": "models/spaceom",
+      "repo_id": "remyxai/SpaceOm",
+      "device": "cuda:0",
+      "load_in_4bit": false,
+      "max_new_tokens": 1536,
+      "max_pixels": 602112
+    },
+    "grounding_dino": {
+      "checkpoint": "models/grounding_dino",
+      "repo_id": "IDEA-Research/grounding-dino-tiny",
+      "implementation": "transformers",
+      "device": "cuda:0",
+      "confidence": 0.3,
+      "text_threshold": 0.25
+    },
+    "llava15": {
+      "checkpoint": "models/llava15",
+      "device": "cuda:0",
+      "load_in_4bit": true,
+      "max_new_tokens": 256
+    },
+    "llava_onevision": {
+      "checkpoint": "models/llava_onevision",
+      "repo_id": "llava-hf/llava-onevision-qwen2-7b-ov-hf",
+      "device": "cuda:0",
+      "load_in_4bit": true,
+      "max_new_tokens": 1024
+    }
+  }
+}

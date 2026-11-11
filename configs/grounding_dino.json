@@ -1,0 +1,6 @@
+{
+  "extends": "default.json",
+  "tool_selection": {
+    "spatial_position_description": "spatial_position_description_groundingdino"
+  }
+}

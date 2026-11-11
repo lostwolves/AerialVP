@@ -1,0 +1,1 @@
+Locate the black car parked in front of the building and return its bounding box in original-image pixel coordinates [x1, y1, x2, y2].

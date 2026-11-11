@@ -1,0 +1,7 @@
+{
+  "extends": "default.json",
+  "tool_selection": {
+    "semantic_description": "semantic_description_llava_onevision",
+    "spatial_relationship_description": "spatial_relationship_description_llava_onevision"
+  }
+}

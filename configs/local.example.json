@@ -1,0 +1,20 @@
+{
+  "extends": "default.json",
+  "engine": {
+    "model": "gpt-4.1"
+  },
+  "analysis": {
+    "model": "gpt-4o"
+  },
+  "backend": {
+    "model": "gpt-4.1"
+  },
+  "models": {
+    "spaceom": {
+      "device": "cuda:0"
+    },
+    "llava_onevision": {
+      "load_in_4bit": true
+    }
+  }
+}
