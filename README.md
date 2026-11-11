@@ -309,6 +309,14 @@ To reflect real UAV conditions, AerialSense incorporates broad visual variation 
 * **[2025/12/23]  📢 Dataset Release: AerialSense on Hugging Face**
   We have released the AerialSense dataset on Hugging Face: https://huggingface.co/datasets/GuoMN/AerialSense. The dataset covers three UAV perception tasks: Aerial Visual Reasoning, Aerial Visual Question Answering, and Aerial Visual Grounding. The Aerial Visual Grounding task is mainly built upon samples from original data sources, while a limited number of samples lacking grounding instructions are manually annotated by our team. The Aerial Visual Reasoning and Aerial Visual Question Answering datasets are manually constructed and validated. If you have any questions or concerns regarding the data, please feel free to contact us.
 
+# License
+
+The AerialVP source code is licensed under the [GNU Affero General Public License v3.0 only (AGPL-3.0-only)](LICENSE).
+
+Copyright (c) 2026 AerialVP contributors.
+
+Third-party libraries, pretrained model weights, and datasets remain subject to their respective licenses.
+
 # Citation
 
 If you find our work useful in your research, please cite our paper:
